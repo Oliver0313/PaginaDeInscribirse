@@ -2,13 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Modulo inscripcion</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-    <h1>weo</h1>
-    <h2>hola xd</h2>
-    <h3>xd</h3>
-    <h3>fiesta</h3>
+    <header></header>
+    <main class="container-fluid">
+        <div class="row">
+            <div id="content-container" class="col-12 col-sm-12 col-md-6 offset-md-3 mt-4">
+                <div class="card">
+                <div class="card header bg-dark text-light">
+                <h4 class="text-center">Modulo de Inscripción</h4>
+                </div>
+                <div class="card-body">
+                <div class="mb-3">
+                    <label for="Name" class="form-label">Nombre:</label>
+                    <input id="Name" for="Name" type="text" class="form-control">
+                </div> 
+                <div class="mb-3">
+                    <label for="Apellido" class="form-label">Provincia:</label>
+                    <input id="Provincia" for="Apellido" type="text" class="form-control">
+                </div> 
+                <div class="mb-3">
+                    <label for="direccion" class="form-label">Ciudad:</label>
+                    <input id="Ciudad" for="direccion" type="text" class="form-control">
+                </div> 
+                <div class="mb-3">
+                    <label for="direccion" class="form-label">Sector:</label>
+                    <input id="Sector" for="direccion" type="text" class="form-control">
+                </div> 
+
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Calle:</label>
+                    <input id="Calle" for="correo" type="text" class="form-control"> 
+                </div>
+
+                <label for="contact-type" class="form-label">Carrera:</label>
+                <select id="Contact" class="form-select">
+                            <option value="" selected>Seleccione una opción</option>
+                            <option value="Software">Software</option>
+                            <option value="Multimedia">Multimedia</option>
+                            <option value="Redes">Redes</option>
+                        </select>
+                    </div>
+
+                <div>   
+                <button id="btn-save" type="button" class="btn btn-dark float-end me-3">Siguiente</button>  
+                <button id="btn-clear" type="button" class="btn btn-dark float-end me-2 mb-1">Limpiar</button>   
+            </div>                    
+
+        <div class="row mt-4" id="contact-container">
+           <!-- <div class="col-12 col-sm-12 col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-header bg-dark text-light"><h5 class="text-center fw-bold">Curriculum</h5></div>
+                    <div class="card-body">
+                    <div class="card">
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Nombre: Oliver</li>
+                    <li class="list-group-item">Apellido: Taveras</li>
+                    <li class="list-group-item">Direccion: Una vaina ahi</li>
+                    <li class="list-group-item">Telefono: 019809803</li>
+                    <li class="list-group-item">Correo: OliverXD@gmail.com</li>
+                    <li class="list-group-item">Pagina Web: OliverXD.com</li>
+                    <li class="list-group-item">Resumen: Un resumen</li>
+                    <li class="list-group-item">Idiomas: Creole, Arabe</li>
+                    <li class="list-group-item">Empleos: Bartender</li>
+                    <li class="list-group-item">Educacion: En el japon</li>
+                    <li class="list-group-item">Skill: Muchas</li>
+                    <li class="list-group-item">Certificaciones: En Valorant xd</li>
+                    </ul>
+                    </div>
+                    <button class="btn btn-dark float-end mt-3">Eliminar</button>
+                    </div>
+                </div>
+            </div> -->
+                </div>                    
+                </div>
+        </div>
+        </div>
+    </main>
+
+    <script src="js/site/index/indexjQuery.js"></script>
 </body>
 </html>
